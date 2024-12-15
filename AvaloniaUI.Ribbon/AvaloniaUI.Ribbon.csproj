@@ -1,0 +1,158 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Styles\Default\AvaloniaRibbon.xaml" />
+    <None Remove="Styles\Default\Controls\Gallery.xaml" />
+    <None Remove="Styles\Default\Controls\KeyTip.xaml" />
+    <None Remove="Styles\Default\Controls\QuickAccessToolbar.xaml" />
+    <None Remove="Styles\Default\Controls\Ribbon.xaml" />
+    <None Remove="Styles\Default\Controls\RibbonButton.xaml" />
+    <None Remove="Styles\Default\Controls\RibbonContextualTabGroup.xaml" />
+    <None Remove="Styles\Default\Controls\RibbonDropDownButton.xaml" />
+    <None Remove="Styles\Default\Controls\RibbonGroupBox.xaml" />
+    <None Remove="Styles\Default\Controls\RibbonMenu.xaml" />
+    <None Remove="Styles\Default\Controls\RibbonSplitButton.xaml" />
+    <None Remove="Styles\Default\Controls\RibbonTab.xaml" />
+    <None Remove="Styles\Default\Controls\RibbonThemeColor.xaml" />
+    <None Remove="Styles\Default\Controls\RibbonToggleButton.xaml" />
+    <None Remove="Styles\Default\Controls\RibbonWindow.xaml" />
+    <None Remove="Styles\Default\Res.xaml" />
+    <None Remove="Styles\Fluent\AvaloniaRibbon.xaml" />
+    <None Remove="Styles\Fluent\Controls\Gallery.xaml" />
+    <None Remove="Styles\Fluent\Controls\KeyTip.xaml" />
+    <None Remove="Styles\Fluent\Controls\QuickAccessToolbar.xaml" />
+    <None Remove="Styles\Fluent\Controls\Ribbon.xaml" />
+    <None Remove="Styles\Fluent\Controls\RibbonButton.xaml" />
+    <None Remove="Styles\Fluent\Controls\RibbonContextualTabGroup.xaml" />
+    <None Remove="Styles\Fluent\Controls\RibbonDropDownButton.xaml" />
+    <None Remove="Styles\Fluent\Controls\RibbonDropDownButtonItemPresenter.xaml" />
+    <None Remove="Styles\Fluent\Controls\RibbonGroupBox.xaml" />
+    <None Remove="Styles\Fluent\Controls\RibbonMenu.xaml" />
+    <None Remove="Styles\Fluent\Controls\RibbonSplitButton.xaml" />
+    <None Remove="Styles\Fluent\Controls\RibbonTab.xaml" />
+    <None Remove="Styles\Fluent\Controls\RibbonToggleButton.xaml" />
+    <None Remove="Styles\Fluent\Controls\RibbonWindow.xaml" />
+    <None Remove="Styles\Fluent\Res.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AvaloniaResource Include="Styles\Default\AvaloniaRibbon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\Gallery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\KeyTip.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\QuickAccessToolbar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\Ribbon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\RibbonButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\RibbonContextualTabGroup.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\RibbonDropDownButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\RibbonGroupBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\RibbonMenu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\RibbonSplitButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\RibbonTab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\RibbonThemeColor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\RibbonToggleButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Controls\RibbonWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Default\Res.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\AvaloniaRibbon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\Gallery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\KeyTip.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\QuickAccessToolbar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\Ribbon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\RibbonButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\RibbonContextualTabGroup.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\RibbonDropDownButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\RibbonDropDownButtonItemPresenter.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\RibbonGroupBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\RibbonMenu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\RibbonSplitButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\RibbonTab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\RibbonToggleButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Controls\RibbonWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Styles\Fluent\Res.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.2.2" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.2.2" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="11.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Locale\en-ca.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Locale\te-st.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>
