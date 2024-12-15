@@ -473,7 +473,7 @@ namespace AvaloniaUI.Ribbon
 
         protected override void OnApplyTemplate(TemplateAppliedEventArgs e)
         {
-             base.OnApplyTemplate(e);
+           //  base.OnApplyTemplate(e);
          
             _popup = e.NameScope.Find<Popup>("PART_CollapsedContentPopup");
             
@@ -488,7 +488,9 @@ namespace AvaloniaUI.Ribbon
 
             bool secondClick = false;
 
-            _itemHeadersControl.PointerReleased += (sneder, args) =>
+            if (_itemHeadersControl != null)
+            {
+  _itemHeadersControl.PointerReleased += (sneder, args) =>
             {
                 if (IsCollapsed)
                 {
@@ -532,6 +534,8 @@ namespace AvaloniaUI.Ribbon
                     }
                 }
             };
+            }
+          
 
             var pinToQat = e.NameScope.Find<MenuItem>("PART_PinLastHoveredControlToQuickAccess");
             pinToQat.Click += (sneder, args) =>
