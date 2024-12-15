@@ -473,7 +473,8 @@ namespace AvaloniaUI.Ribbon
 
         protected override void OnApplyTemplate(TemplateAppliedEventArgs e)
         {
-            base.OnApplyTemplate(e);
+             base.OnApplyTemplate(e);
+         
             _popup = e.NameScope.Find<Popup>("PART_CollapsedContentPopup");
             
             _groupsHost = e.NameScope.Find<ItemsControl>("PART_SelectedGroupsHost");

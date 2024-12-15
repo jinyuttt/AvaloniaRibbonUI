@@ -637,7 +637,8 @@
         </ribbon:RibbonTab>
         <ribbon:RibbonTab Header="Invisible tab" IsVisible="False"/>
         <ribbon:RibbonContextualTabGroup Header="Contextual Group 1" Background="Red" IsVisible="{Binding ShowContextualGroup1}">
-          <ribbon:RibbonTab Header="Test A" ribbon:KeyTip.KeyTipKeys="T">
+          
+          <ribbon:RibbonTab Header="Test A" ribbon:KeyTip.KeyTipKeys="T" >
             <ribbon:RibbonTab.Groups>
               <ribbon:RibbonGroupBox Header="Test Group" Command="{Binding OnClickCommand}" ribbon:KeyTip.KeyTipKeys="D1">
                 <ribbon:RibbonButton Content="On" MinSize="Large" ToolTip.Tip="On" ribbon:KeyTip.KeyTipKeys="A">
@@ -807,6 +808,8 @@
               </ribbon:RibbonGroupBox>
             </ribbon:RibbonTab.Groups>
           </ribbon:RibbonTab>
+        
+        
         </ribbon:RibbonContextualTabGroup>
         <ribbon:RibbonContextualTabGroup Header="Contextual Group 2" Background="Green" IsVisible="{Binding ShowContextualGroup2}">
           <ribbon:RibbonTab Header="This tab's name is really long" ribbon:KeyTip.KeyTipKeys="T">

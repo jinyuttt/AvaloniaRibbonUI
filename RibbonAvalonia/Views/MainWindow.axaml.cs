@@ -13,12 +13,17 @@ namespace RibbonAvalonia.Views
             Button horizontalRibbonButton = this.Find<Button>("HorizontalRibbonButton");
            
             verticalRibbonButton.Click += (sneder, args) =>
-            {
-                /*ribbon.Orientation = Orientation.Vertical;
-                DockPanel.SetDock(ribbon, Dock.Left);*/
-                Orientation =Avalonia.Layout.Orientation.Vertical;
+            {this.Find<Button>("VerticalRibbonButton");
+
+                Orientation = Avalonia.Layout.Orientation.Horizontal;
+                this.Ribbon.Orientation = Orientation;
+             
+                DockPanel.SetDock(this.Ribbon, Dock.Left);
+                Orientation = Avalonia.Layout.Orientation.Vertical;
                 verticalRibbonButton.IsVisible = false;
                 horizontalRibbonButton.IsVisible = true;
+                //
+                
             };
             horizontalRibbonButton.Click += (sneder, args) =>
             {

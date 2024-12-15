@@ -18,7 +18,6 @@
   </Application.Resources>
     <Application.Styles>
         <FluentTheme />
-
       <StyleInclude Source="avares://AvaloniaUI.Ribbon/Styles/Fluent/AvaloniaRibbon.xaml" />
     </Application.Styles>
 </Application>
