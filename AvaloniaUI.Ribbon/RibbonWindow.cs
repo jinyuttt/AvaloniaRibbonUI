@@ -11,6 +11,7 @@ using System.Globalization;
 using System.Runtime.InteropServices;
 using Timer = System.Timers.Timer;
 using Path = Avalonia.Controls.Shapes.Path;
+using static System.Net.Mime.MediaTypeNames;
 
 
 namespace AvaloniaUI.Ribbon
@@ -89,7 +90,9 @@ namespace AvaloniaUI.Ribbon
             RefreshQat(null, QuickAccessToolbar);
             this.Icon = null;
             this.WindowState = WindowState.Maximized;
-           
+          //  AdornerLayer.SetAdorner(this, Ribbon);
+          //  AdornerLayer.SetIsClipEnabled(Ribbon, false);
+
         }
        
       

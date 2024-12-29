@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaUI.Ribbon", "Avalon
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RibbonAvalonia", "RibbonAvalonia\RibbonAvalonia.csproj", "{1406051D-1D9A-485D-A448-0A08048A9D8A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RibbonDock", "RibbonDock\RibbonDock.csproj", "{F31EADBF-25EC-4112-8E3E-9360C3D2150E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1406051D-1D9A-485D-A448-0A08048A9D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1406051D-1D9A-485D-A448-0A08048A9D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1406051D-1D9A-485D-A448-0A08048A9D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31EADBF-25EC-4112-8E3E-9360C3D2150E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31EADBF-25EC-4112-8E3E-9360C3D2150E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31EADBF-25EC-4112-8E3E-9360C3D2150E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31EADBF-25EC-4112-8E3E-9360C3D2150E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

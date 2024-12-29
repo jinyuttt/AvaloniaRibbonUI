@@ -28,11 +28,16 @@
     <Setter Property="TransparencyLevelHint" Value="AcrylicBlur" />
     <Setter Property="TransparencyBackgroundFallback" Value="{DynamicResource SystemControlBackgroundAccentBrush}" />
     <Setter Property="Foreground" Value="{DynamicResource SystemControlForegroundBaseHighBrush}"/>
-    
-      
-    
+    <Setter Property='FocusAdorner'>
+      <FocusAdornerTemplate>
+        <Rectangle Stroke='Black'
+             StrokeThickness='1'
+             StrokeDashArray='1,2'/>
+      </FocusAdornerTemplate>
+    </Setter>
     <Setter Property="Template">
       <ControlTemplate>
+       
         <Grid>
           <Border Classes="OuterBorder" Width="{TemplateBinding}">
             <Grid x:Name="WindowGrid">
