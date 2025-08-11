@@ -37,7 +37,7 @@
     </Setter>
     <Setter Property="Template">
       <ControlTemplate>
-       
+        <VisualLayerManager>
         <Grid>
           <Border Classes="OuterBorder" Width="{TemplateBinding}">
             <Grid x:Name="WindowGrid">
@@ -167,6 +167,7 @@
                 Grid.Row="1"/>
           </Grid>
         </Grid>
+          </VisualLayerManager>
       </ControlTemplate>
     </Setter>
   </Style>
