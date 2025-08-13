@@ -12,7 +12,8 @@
     <ResourceDictionary>
       <ResourceDictionary.MergedDictionaries>
         <!--ResourceInclude Source="avares://AvaloniaUI.Ribbon/Locale/te-st.xaml" /-->
-        <ResourceInclude Source="avares://AvaloniaUI.Ribbon/Locale/ru-ru.axaml" />
+        <ResourceInclude Source="avares://AvaloniaUI.Ribbon/Locale/en-ca.xaml" />
+        <ResourceInclude Source="avares://AvaloniaUI.Ribbon/Locale/zh-cn.xaml" />
       </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>
   </Application.Resources>

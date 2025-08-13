@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Locale\en-ca.xaml" />
+    <None Remove="Locale\te-st.xaml" />
     <None Remove="Styles\Default\AvaloniaRibbon.xaml" />
     <None Remove="Styles\Default\Controls\Gallery.xaml" />
     <None Remove="Styles\Default\Controls\KeyTip.xaml" />
@@ -141,18 +143,27 @@
   </ItemGroup>
 
   <ItemGroup>
+    <AvaloniaXaml Include="Locale\en-ca.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaXaml>
+    <AvaloniaXaml Include="Locale\ru-ru.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaXaml>
+    <AvaloniaXaml Include="Locale\te-st.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaXaml>
+    <AvaloniaXaml Include="Locale\zh-cn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaXaml>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Avalonia" Version="11.3.3" />
     <PackageReference Include="Avalonia.Desktop" Version="11.3.3" />
     <PackageReference Include="Avalonia.ReactiveUI" Version="11.3.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Locale\en-ca.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
-    <None Update="Locale\te-st.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
     <None Update="Styles\Fluent\AdornerLayer.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>

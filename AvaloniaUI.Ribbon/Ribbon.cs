@@ -148,7 +148,7 @@ namespace AvaloniaUI.Ribbon
                     {
                         if (ctrl is RibbonContextualTabGroup ctx)
                         {
-                            //newTabsList.Add(ctx);
+                          
                             foreach (RibbonTab tb in ctx.Items)
                                 newTabsList.Add(tb);
                         }
